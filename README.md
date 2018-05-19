@@ -17,5 +17,5 @@ eğer 404 hatası verirse paneldeki oturumu kapatıp yeniden giriş yapınız
 www.mageticaret.com
 
 
-<img src='https://raw.githubusercontent.com/stnc/magento-cookie-contract/style1.jpg'>
-<img src='https://raw.githubusercontent.com/stnc/magento-cookie-contract/style2.jpg'>
+<img src='https://raw.githubusercontent.com/stnc/magento-cookie-contract/master/style1.jpg'>
+<img src='https://raw.githubusercontent.com/stnc/magento-cookie-contract/master/style2.jpg'>
