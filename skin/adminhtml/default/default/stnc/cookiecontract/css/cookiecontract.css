@@ -1,0 +1,9 @@
+
+ul.tabs.config-tabs a.stnc-cookiecontract-section span { background: url(../images/icon.png) no-repeat 187px 3px; }
+ul.tabs.config-tabs a.stnc-cookiecontract-section.active span { background: #fff url(../images/icon.png) no-repeat 187px 3px; }
+
+.content-header h3.stnc-cookiecontract-header { background: url(../images/icon.png) no-repeat; padding-left: 31px; }
+
+.section-config .config .comment .stnc-cookiecontract-notice { border: 1px solid #d6d6d6; padding: 5px; margin-bottom: 5px; background: #fafafa; }
+.section-config .config .comment .stnc-cookiecontract-notice .advice { color: #6f8992; }
+.section-config .config .comment .stnc-cookiecontract-notice a { color: #ea7601; }

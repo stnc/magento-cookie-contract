@@ -1,0 +1,50 @@
+
+#stnc-cookiecontract { overflow: hidden; background: #fff; color: #444; z-index: 9999; font-size: 13px; }
+#stnc-cookiecontract .v-message { padding: 5px 10px; text-align: left; }
+#stnc-cookiecontract .v-actions { }
+#stnc-cookiecontract .v-button { color: #222; display: inline-block; background-color: #ececec; background-image: linear-gradient(#f4f4f4, #ececec); border: 1px solid #d4d4d4; padding: 4px 10px; text-decoration: none; text-shadow: 1px 1px 0 #fff; border-radius: 2px; }
+#stnc-cookiecontract .v-button.v-accept:before { content: "\2714"; }
+#stnc-cookiecontract .v-button:hover,
+#stnc-cookiecontract .v-button:focus { color: #fff; text-shadow: -1px -1px 0 rgba(0,0,0,0.3); border-color: #3072b3; border-bottom-color: #2a65a0; background-color: #2a65a0; background-image: linear-gradient(#599bdc, #3072b3); }
+#stnc-cookiecontract .v-button:active {  border-color: #2a65a0; border-bottom-color: #3884cd; background-color: #3072b3; background-image: linear-gradient(#3072b3, #599bdc); }
+
+#stnc-cookiecontract.v-bar { display: table; width: 100%; padding: 5px 0; }
+#stnc-cookiecontract.v-bar .v-message { display: table-cell; }
+#stnc-cookiecontract.v-bar .v-actions { display: table-cell; vertical-align: middle; width: 250px; padding-right: 10px; text-align: right; }
+#stnc-cookiecontract.v-bar.v-top { position: relative; border-bottom: 1px solid #000; }
+#stnc-cookiecontract.v-bar.v-bottom { position: fixed; bottom: 0; border-top: 1px solid #000; }
+
+#stnc-cookiecontract.v-box { position: fixed; max-width: 300px; border: 1px solid #000; border-radius: 3px; margin: 10px; }
+#stnc-cookiecontract.v-box .v-actions { float: left; margin: 5px 10px; }
+#stnc-cookiecontract.v-box.v-top-left { top: 0; left: 0; }
+#stnc-cookiecontract.v-box.v-top-right { top: 0; right: 0; }
+#stnc-cookiecontract.v-box.v-bottom-left { bottom: 0; left: 0; }
+#stnc-cookiecontract.v-box.v-bottom-right { bottom: 0; right: 0; }
+
+/* RWD */
+@media (max-width: 480px) {
+    #stnc-cookiecontract.v-box { display: table; width: 100% !important; padding: 5px 0 0; position: fixed; bottom: 0 !important; top: auto !important; border-top: 1px solid #000; max-width: 100%; margin: 0; border-radius: 0; border-right: 0; border-left: 0; border-bottom: 0; }
+    #stnc-cookiecontract.v-box .v-message { display: table-cell; }
+    #stnc-cookiecontract.v-box .v-actions { display: table-cell; vertical-align: middle; width: 250px; padding-right: 10px; text-align: left; }
+
+    #stnc-cookiecontract .v-message { float: left; }
+    #stnc-cookiecontract .v-actions { float: left; margin: 5px 10px; }
+    #stnc-cookiecontract.v-bar .v-actions { width: auto; }
+}
+
+/* Skin - Yellow Alert */
+#stnc-cookiecontract.v-yellow-alert { background: #fffbcd; border-color: #e2cd7b !important; }
+
+/* Skin - Dark Clean */
+#stnc-cookiecontract.v-dark-clean { color: #fff; background: #2c2c2c; border-color: #55575f !important; }
+#stnc-cookiecontract.v-dark-clean .v-button { color: #fff; text-shadow: -1px -1px 0 rgba(0,0,0,0.3); border-color: #3072b3; border-bottom-color: #2a65a0; background-color: #2a65a0; background-image: linear-gradient(#599bdc, #3072b3); }
+#stnc-cookiecontract.v-dark-clean .v-button:hover,
+#stnc-cookiecontract.v-dark-clean .v-button:focus { background-color: #3678a0; background-image: linear-gradient(#68abdc, #387cb3); }
+
+/* Skin - Minimalist */
+#stnc-cookiecontract.v-minimalist { color: #2c2c2c; background: #f0f0f0; border-color: #e0e0e0 !important; font-size: 11px; font-family: Verdana; }
+#stnc-cookiecontract.v-bar.v-minimalist { padding: 2px 0; }
+#stnc-cookiecontract.v-box.v-minimalist { width: 260px; }
+#stnc-cookiecontract.v-box.v-minimalist .v-actions { margin: 5px; }
+#stnc-cookiecontract.v-box.v-minimalist .v-message { padding: 5px; }
+#stnc-cookiecontract.v-minimalist .v-button { padding: 3px 6px; }
