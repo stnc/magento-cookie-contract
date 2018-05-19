@@ -1,5 +1,5 @@
 # INFO / Amaç #
-
+ ## cookie law  Magento 1 module ##
 An easy, complete and flexible cookie law implementation plugin for Magento 1 which makes it possible to fully comply with the cookie law.
 
 Choose your way of cookie consent in the style of your website!
