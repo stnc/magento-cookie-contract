@@ -6,7 +6,7 @@ Choose your way of cookie consent in the style of your website!
 
 Bu modul magento cookie sözleşmeleri moduludur 
 valcode cookielaw dan uyarlanmıştır.
-
+ EU Privacy Laws Cookie moduls
 @selmantunc 
 
 ### How do I get set up? ###
