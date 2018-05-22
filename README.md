@@ -16,10 +16,10 @@ eğer 404 hatası verirse paneldeki oturumu kapatıp yeniden giriş yapınız
 
 www.mageticaret.com
 
-STYLE 1
+## STYLE 1
 
 <img src='https://raw.githubusercontent.com/stnc/magento-cookie-contract/master/style1.jpg'>
 
-STYLE 2
+## STYLE 2
 
 <img src='https://raw.githubusercontent.com/stnc/magento-cookie-contract/master/style2.jpg'>
